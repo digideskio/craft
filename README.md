@@ -9,13 +9,9 @@
 * `npm start`
 * go to http://localhost:8000
 
-### Deploy
-
-Deploy is automated on master. If you commit new things, your changes will be applied in 1 minute.
-
 ### Splash page
 
-Splash page is a share page with all other conference pages, so it's a `git submodule` in `splash/src` folder + `docpad run`
+Splash page is a share page with all other conference pages, so it's a `git submodule` in `splash/src` folder
 
 #### clone splash page folder
 
