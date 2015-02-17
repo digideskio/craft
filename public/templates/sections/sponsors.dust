@@ -1,0 +1,18 @@
+<div class="section-header inner">
+	<h1>{label}</h1>
+	<div class="gear dark" data-gear="2"></div>
+</div>
+
+<div class="block sponsors">
+    {@iterate key=sponsors}
+	<h1>{$key}</h1>
+	<ul class="{$key} clear">
+		{#$value}
+		<li>
+			<a href="{url}" target="_blank"><img src="{logo}" alt="{name}" /></a>
+		</li>
+		{/$value}
+	</ul>
+    {~n}{/iterate}
+	<h1 class="grey">CRAFT is a non-profit conference. We are looking for sponsors who help us make this conference happen. Take a look at <a href="http://craft-conf.com/CRAFT-sponsorship-information.pdf">our sponsor packages</a> and contact us at hello@craft-conf.com.</h1>
+</div>

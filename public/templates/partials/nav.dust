@@ -1,0 +1,54 @@
+<div id="nav">
+	<div class="inner">
+		<a href="/{conf.year}" class="logo"></a>
+		<div id="dropdown">
+			<ul>
+                {#sections}
+                    {?label}
+                    {@if cond="!'{hide_in_menu}'"}
+		                <li class="nav-item">
+			                {?full_url}
+				                <a href="{full_url}"
+				                   title="{label}"
+				                   class="nav-link">
+					                {label}
+				                </a>
+			                {:else}
+				                <a href="/{conf.year}/{@if cond="'{page_url}'.length"}{page_url}{:else}#{id}{/if}"
+				                   title="{label}"
+				                   class="nav-link">
+					                {label}
+				                </a>
+			                {/full_url}
+		                </li>
+                    {/if}
+                    {/label}
+                {/sections}
+				{#conf.prev_year}
+					<li class="nav-item">
+		                <a href="/{conf.prev_year}"
+		                   class="nav-link">
+		                    {conf.prev_year}
+		                </a>
+	                </li>
+				{/conf.prev_year}
+			</ul>
+			<div class="share">
+                <a href="https://twitter.com/{conf.twitter}" class="twitter">
+                    <img src="/img/header_twitter.svg">
+                </a>
+                <a href="https://www.facebook.com/{conf.facebook}" class="facebook">
+                    <img src="/img/header_facebook.svg">
+                </a>
+                <a href="http://lanyrd.com/{conf.lanyard}" class="lanyrd">
+                    <img src="/img/header_lanyrd.svg">
+                </a>
+			</div>
+		</div>
+		<div id="menu">
+			<i></i>
+			<i></i>
+			<i class="last"></i>
+		</div>
+	</div>
+</div>

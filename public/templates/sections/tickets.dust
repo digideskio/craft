@@ -1,0 +1,9 @@
+<div class="section-header inner">
+	<h1>{label}</h1>
+	<div class="gear dark" data-gear="2"></div>
+</div>
+
+<div class="block">
+	<h1 class="grey">This year, we offer two new types of tickets: <a href="/2015#tickets">Diversity Ticket</a> and <a href="/2015#tickets">Student Supporter Ticket</a>. If your company buys at least 5 of either ticket, let us know and we'll list your logo (130x60) in the <a href="/2015#superstars">Superstars sections</a>.</h1>
+	<iframe id="TicketIframe" data-src="http://www.eventbrite.com/tickets-external?eid=13742336699" frameborder="0" height="1200" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe>
+</div>

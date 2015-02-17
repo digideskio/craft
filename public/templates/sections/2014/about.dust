@@ -1,0 +1,40 @@
+<div class="block about no-padding inner">
+	<div class="featured">
+		<h2>FEATURED SPEAKERS</h2>
+		<a href="#speakers/AlvaroVidela">Alvaro Videla</a> <span>//</span>
+		<a href="#speakers/AmberCase">Amber Case</a> <span>//</span>
+		<a href="#speakers/AndyPiper">Andy Piper</a> <span>//</span>
+		<a href="#speakers/BodilStokke">Bodil Stokke</a> <span>//</span>
+		<a href="#speakers/BruceEckel">Bruce Eckel</a> <span>//</span>
+		<a href="#speakers/ChadFowler">Chad Fowler</a> <span>//</span>
+		<a href="#speakers/ChrisAtherton">Chris Atherton</a> <span>//</span>
+		<a href="#speakers/DanNorth">Dan North</a> <span>//</span>
+		<a href="#speakers/EricEvans">Eric Evans</a> <span>//</span>
+		<a href="#speakers/DouglasCrockford">Douglas Crockford</a> <span>//</span>
+		<a href="#speakers/GojkoAdzic">Gojko Adzic</a> <span>//</span>
+		<a href="#speakers/GregYoung">Greg Young</a> <span>//</span>
+		<a href="#speakers/JohnHughes">John Hughes</a> <span>//</span>
+		<a href="#speakers/JohnWillis">John Willis</a> <span>//</span>
+		<a href="#speakers/JonasBoner">Jonas BonÃ©r</a> <span>//</span>
+		<a href="#speakers/JuttaEckstein">Jutta Eckstein</a> <span>//</span>
+		<a href="#speakers/MichaelFeathers">Michael Feathers</a> <span>//</span>
+		<a href="#speakers/MichaelNygard">Michael Nygard</a> <span>//</span>
+		<a href="#speakers/MitchellHashimoto">Mitchell Hashimoto</a> <span>//</span>
+		<a href="#speakers/NatPryceSteveFreeman">Nat Pryce</a> <span>//</span>
+		<a href="#speakers/RachelDavies">Rachel Davies</a> <span>//</span>
+		<a href="#speakers/SimonBrown">Simon Brown</a> <span>//</span>
+		<a href="#speakers/NatPryceSteveFreeman">Steve Freeman</a> <span>//</span>
+		<a href="#speakers/TheoSchlossnagle">Theo Schlossnagle</a> <span>//</span>
+		<a href="#speakers/TomomiImura">Tomomi Imura</a>
+	</div>
+	<!-- img src="themes/craftconf/img/game_promo.png" width="100%" -->
+	<div class="text">
+		<h1 class="grey">CRAFT is about software craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is a compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
+		<h1 class="grey">
+			April 23 was a <a href="#workshops">workshop day</a>.
+			<br>On April 24-25 we had <a href="#speakers">speaker sessions</a>.
+		</h1>
+		<h1 class="grey">See you next year!</h1>
+		<h1 class="grey">You can find all the videos on the following Ustream channels: <a href="http://www.ustream.tv/channel/craftconf">Room&nbsp;1</a>, <a href="http://www.ustream.tv/channel/craftconf1">Room&nbsp;2</a>, <a href="http://www.ustream.tv/craft">Main&nbsp;Room</a>, and you can enjoy the full presentation experience on our <a href="http://www.infoq.com/craft-conference">InfoQ&nbsp;page</a>.</h1>
+	</div>
+</div>

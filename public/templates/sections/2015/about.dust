@@ -1,0 +1,43 @@
+<div class="block about no-padding inner">
+	<div class="featured">
+		<h2>FEATURED SPEAKERS // Many more come soon</h2>
+		<a href="#speakers/AlvaroVidela">Alvaro Videla</a> <span>//</span>
+		<a href="#speakers/AmberCase">Amber Case</a> <span>//</span>
+		<a href="#speakers/BruceEckel">Bruce Eckel</a> <span>//</span>
+		<a href="#speakers/CamilleFournier">Camille Fournier</a> <span>//</span>
+		<a href="#speakers/DanNorth">Dan North</a> <span>//</span>
+		<a href="#speakers/DavidNolen">David Nolen</a> <span>//</span>
+		<a href="#speakers/ErikMeijer">Erik Meijer</a> <span>//</span>
+		<a href="#speakers/GradyBooch">Grady Booch</a> <span>//</span>
+		<a href="#workshops/JamesLewis">James Lewis</a> <span>//</span>
+		<a href="#speakers/JeffLindsay">Jeff Lindsay</a> <span>//</span>
+		<a href="#speakers/JeremyEdberg">Jeremy Edberg</a> <span>//</span>
+		<a href="#speakers/JessicaKerr">Jessica Kerr</a> <span>//</span>
+		<a href="#speakers/JohnWillis">John Willis</a> <span>//</span>
+		<a href="#speakers/JoshLong">Josh Long</a> <span>//</span>
+		<a href="#speakers/KyleKingsbury">Kyle Kingsbury</a> <span>//</span>
+		<a href="#speakers/MacDevine">Mac Devine</a> <span>//</span>
+		<a href="#speakers/MarkBurgess">Mark Burgess</a> <span>//</span>
+		<a href="#speakers/MartyCagan">Marty Cagan</a> <span>//</span>
+		<a href="#speakers/MaryPoppendieck">Mary Poppendieck</a> <span>//</span>
+		<a href="#speakers/MichaelFeathers">Michael Feathers</a> <span>//</span>
+		<a href="#speakers/MichaelNygard">Michael Nygard</a> <span>//</span>
+		<a href="#speakers/MitchellHashimoto">Mitchell Hashimoto</a> <span>//</span>
+		<a href="#speakers/NehaNarula">Neha Narula</a> <span>//</span>
+		<a href="#speakers/RussMiles">Russ Miles</a> <span>//</span>
+		<a href="#speakers/SandroMancuso">Sandro Mancuso</a> <span>//</span>
+		<a href="#speakers/SeanCribbs">Sean Cribbs</a> <span>//</span>
+		<a href="#speakers/SimonBrown">Simon Brown</a> <span>//</span>
+		<a href="#speakers/TrishaGee">Trisha Gee</a> <span>//</span>
+		<a href="#speakers/ViktorKlang">Viktor Klang</a>
+	</div>
+	<div class="text">
+		<h1 class="grey">CRAFT is about software craftsmanship, which tools, methods, practices should be part of the toolbox of a modern developer and company, and it is a compass on new technologies, trends. You can learn from the best speakers and practitioners in our community.</h1>
+		<h1 class="grey">This year, we offer two new types of tickets: <a href="/2015#tickets">Diversity Ticket</a> and <a href="/2015#tickets">Student Supporter Ticket</a>. If your company buys at least 5 of either ticket, let us know and we'll list your logo (130x60) in the <a href="/2015#superstars">Superstars sections</a>.</h1>
+		<h1 class="grey">
+			April 22 will be a <a href="#workshops">workshop day</a>.
+			<br>On April 23-24 we are going to have <a href="#speakers">speaker sessions</a>.
+		</h1>
+		<h1 class="grey">You can find all the videos from <a href="/2014/">our last event</a> on the following Ustream channels: <a href="http://www.ustream.tv/channel/craftconf">Room 1</a>, <a href="http://www.ustream.tv/channel/craftconf1">Room 2</a>, <a href="http://www.ustream.tv/craft">Main Room</a>, and you can enjoy the full presentation experience on our <a href="http://www.infoq.com/craft-conference">InfoQ page</a>.</h1>
+	</div>
+</div>

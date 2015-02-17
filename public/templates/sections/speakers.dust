@@ -1,0 +1,86 @@
+<div class="section-header inner speakers">
+	<h1>Speakers</h1>
+    {@if cond="'{conf.year}' == 2015"}
+        <span>MORE COMING SOON</span>
+    {/if}
+	<div class="gear dark" data-gear="3"></div>
+</div>
+
+<div class="block full-width">
+	<div class="inner">
+		<ul class="speakers-list">
+        {#speakers}
+			{?presentation}
+            <li class="speakers-item" data-type="speakers" id="{anchor}">
+
+                {?photo}
+                    <span class="speaker-photo">
+                        <img class="photo" width="100" height="100" src="{photo}" alt="{name}">
+                    </span>
+                {/photo}
+
+                {@if cond="'{coSpeakers}'.length"}
+                    <h3 class="speakers-name">
+                       {#coSpeakers}
+                            {name}
+                            {?link}
+                                <a class="twitter-link" href="{link.href}" target="_blank" title="{link.text}">{link.text}</a>
+                            {/link}
+                            {@sep} // {/sep}
+                       {/coSpeakers}
+                    </h3>
+
+                    <p class="speakers-company">
+                        {#coSpeakers}
+                            {company}
+                            {@sep} // {/sep}
+                        {/coSpeakers}
+                    </p>
+                {:else}
+                    <h3 class="speakers-name">
+                        {name}
+                        {?link}
+                            <a class="twitter-link" target="_blank" href="{link.href}" title="{link.text}">
+                                {link.text}
+                            </a>
+                        {/link}
+                    </h3>
+                    <p class="speakers-company">{company}</p>
+                {/if}
+
+                {@if cond="'{presentation.title}'.length"}
+                    <div class="speech-info">
+                        <h3 class="speech-title">
+                            {?presentation.slides}
+                                <a class="speech-time" href=" {presentation.slides}" target="_blank">Download slides</a>
+                            {/presentation.slides}
+                            <span class="title">{presentation.title}</span>
+                        </h3>
+                    </div>
+                {/if}
+
+                <div class="plus-icon">
+                    <i class="vertical"></i>
+                    <i class="horizontal"></i>
+                </div>
+                <div class="more">
+                    <div class="details">
+                        <h1>{presentation.title}</h1>
+                        <span>{presentation.description|s}</span>
+                        {@if cond="'{coSpeakers}'.length"}
+                            {#coSpeakers}
+                            <h5>{name}</h5>
+                            <div class="speakers-bio">{bio|s}</div>
+                            {/coSpeakers}
+                        {:else}
+                            <div class="speakers-bio">{bio|s}</div>
+                        {/if}
+                    </div>
+                </div>
+            </li>
+            {/presentation}
+            {~n}
+        {/speakers}
+		</ul>
+	</div>
+</div>

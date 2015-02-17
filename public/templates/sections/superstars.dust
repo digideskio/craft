@@ -1,0 +1,17 @@
+<div class="section-header inner">
+	<h1>{label}</h1>
+	<div class="gear dark" data-gear="2"></div>
+</div>
+<div class="block sponsors">
+	<h1 class="grey">Your company's logo (130x60) is listed here if you buy at least 5 of <a href="/2015#tickets">Diversity Ticket</a> or <a href="/2015#tickets">Student Supporter Ticket</a>.</h1>
+    {@iterate key=superstars}
+	<h1>{$key}</h1>
+	<ul class="{$key} clear">
+		{#$value}
+		<li>
+			<a href="{url}" target="_blank"><img src="{logo}" alt="{name}" /></a>
+		</li>
+		{/$value}
+	</ul>
+        {~n}{/iterate}
+</div>

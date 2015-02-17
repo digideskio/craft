@@ -1,0 +1,59 @@
+<div class="section-header inner speakers">
+	<h1>Workshops</h1>
+    {@if cond="'{conf.year}' == 2015"}
+		<span>MORE COMING SOON</span>
+    {/if}
+	<div class="gear dark" data-gear="3"></div>
+</div>
+
+<div class="block full-width">
+	<div class="inner">
+		<ul class="speakers-list">
+            {#workshops}
+                {?workshop}
+					<li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person"
+					    data-type="workshops" id="{anchor}">
+
+                        {?photo}
+							<span class="speaker-photo">
+                            <img class="photo" width="100" height="100" src="{photo}" alt="{bane}" itemprop="image">
+                        </span>
+                        {/photo}
+
+						<h3 class="speakers-name">
+                            {name}
+                            {?link}<a class="twitter-link" target="_blank" href="{link.href}"
+							          title="{link.text}">{link.text}</a>{/link}
+						</h3>
+
+						<p class="speakers-company">{company}</p>
+
+                        {@if cond="'{workshop.title}' || '{workshop.time}'"}
+							<div class="speech-info">
+								<h3 class="speech-title">
+                                    {?workshop.time}
+										<span class="speech-time">{workshop.day} &mdash; {workshop.time}</span>
+                                    {/workshop.time}
+									<span class="title">{workshop.title}</span>
+								</h3>
+							</div>
+                        {/if}
+
+						<div class="plus-icon">
+							<i class="vertical"></i>
+							<i class="horizontal"></i>
+						</div>
+						<div class="more">
+							<div class="details">
+								<h1>{workshop.title}</h1>
+								<span>{workshop.description|s}</span>
+
+								<div class="speakers-bio">{bio|s}</div>
+							</div>
+						</div>
+					</li>
+                {/workshop}
+            {/workshops}
+		</ul>
+	</div>
+</div>

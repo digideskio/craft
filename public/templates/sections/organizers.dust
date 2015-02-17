@@ -1,0 +1,31 @@
+<div class="section-header inner">
+	<h1>{label}</h1>
+	<div class="gear" data-gear="5"></div>
+</div>
+
+<div class="block organizers full-width">
+	<div class="inner">
+		<div class="logos">
+            {#organizers.company}
+			<img src="{logo}" alt="{org.name}" width="130" height="59" />
+            {/organizers.company}
+		</div>
+		<ul class="clr">
+            {#organizers.person}
+			<li class="org-container speakers-item">
+				{?photo}
+		        <span class="speaker-photo">
+					<img class="photo" width="100" height="100" src="{photo}" alt="{name}">
+				</span>
+				{/photo}
+				<div class="head">
+					<h3 class="speakers-name">{name}</h3>
+					<span class="role">{role}<span class="slash">//</span><span class="company">{company}</span></span>
+                    {?link}<a href="{link.href}" title="{link.text}">{link.text}</a>{/link}
+					<div class="desc">{bio}</div>
+				</div>
+			</li>
+            {/organizers.person}
+		</ul>
+	</div>
+</div>

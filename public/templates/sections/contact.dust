@@ -1,0 +1,12 @@
+<div class="section-header inner">
+	<h1>Contact</h1>
+	<div class="gear" data-gear="6"></div>
+</div>
+<div class="block full-width">
+	<div class="inner contact-us text">
+		Contact us if you have a question at
+		<a class="contact" href="mailto:hello@craft-conf.com">hello@craft-conf.com</a>
+		We are offerring child care for attendees coming with their kids to the conference.<br/>
+		<a href="mailto:hello@craft-conf.com">Please let us know</a> in advance if you would bring your kid.<br/><br/>
+	</div>
+</div>

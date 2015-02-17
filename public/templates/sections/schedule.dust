@@ -1,0 +1,69 @@
+<div class="section-header inner">
+	<h1>Schedule</h1>
+	<div class="gear" data-gear="2"></div>
+	<span>You can also track <a href="#">the conference on Lanyrd.</a></span>
+</div>
+<div class="schedule-tbl inner clr">
+    <div class="days clr">
+        {#schedule}
+            <div class="day-header {@if cond="'{$idx}' == 0"} active {/if}">
+                <h2>{header}</h2>
+                <span>{name}</span>
+            </div>
+        {/schedule}
+    </div>
+
+    <div class="day-containers">
+        {#schedule}
+        <div class="day day-<%- ind %> {@if cond="'{$idx}' == 0"} active {/if}">
+            <!-- DESKTOP -->
+            <table class="desktop">
+                <colgroup>
+                    <col width="50">
+                    <col width="100">
+                    <col width="100">
+                    <col width="100">
+                </colgroup>
+
+	            {#table}
+                    <tr>
+	                    <td class="schedule-time">{time}</td>
+                        {#slots}
+                            <td class="schedule-slot" {?keynote} colspan="3" {/keynote}>
+                                {title|s}
+                                <span class="talk-title">
+                                    {?keynote}Keynote: {/keynote}
+                                    {presentation.title}
+                                </span>
+                                <span class="schedule-speaker">
+                                    {?coSpeakers}
+                                        {#coSpeakers}
+                                            {name}
+                                            {?company}
+                                                ({company})
+                                            {/company}
+                                            {@sep} - {/sep}
+                                        {/coSpeakers}
+                                    {:else}
+                                        {name}
+                                        {?company}
+                                            ({company})
+                                        {/company}
+                                    {/coSpeakers}
+                                </span>
+                                {?presentation.slides}
+                                    <a href="{presentation.slides}" target="_blank">Download slides</a>
+                                {/presentation.slides}
+                            </td>
+                        {:else}
+	                        <td class="schedule-slot" colspan="3">
+                                {title|s}
+	                        </td>
+                        {/slots}
+                    </tr>
+                {/table}
+                </table>
+            </div>
+        {/schedule}
+    </div>
+</div>

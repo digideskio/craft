@@ -1,0 +1,18 @@
+<div class="block no-padding live clr">
+	<div class="channels">
+		<ul>
+			<li class="room0 active" data-cid="{conf.cids[0]}">
+				<h4>Main room</h4>
+			</li>
+			<li class="room1" data-cid="{conf.cids[1]}">
+				<h4>Room 1</h4>
+			</li>
+			<li class="room2" data-cid="{conf.cids[2]}">
+				<h4>Room 2</h4>
+			</li>
+		</ul>
+	</div>
+	<div class="live-viewer">
+		<iframe id="UstreamIframe" class="embed" src="//www.ustream.tv/combined-embed/{conf.cids[0]}" allowtransparency="true"></iframe>
+	</div>
+</div>

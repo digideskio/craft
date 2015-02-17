@@ -1,0 +1,43 @@
+{>"layouts/master" /}
+
+{<body}
+    {>"partials/header" /}
+    {>"partials/nav" /}
+
+    <div class="block about inner single align-left">
+	    <h1 class="align-left first">CRAFT Conference Ambassador program</h1>
+
+	    We are delighted to announce the CRAFT Ambassador program! With the program, we would like to reward the support of the most active members of the tech community, who help in spreading the word about CRAFT conference 2015 throughout the World in their community.
+
+	    <h1 class="align-left">Why should you be a CRAFT Ambassador?</h1>
+
+	    <ul class="nr">
+		    <li>You can get a free ticket to CRAFT Conference 2015 (value: 350$),</li>
+		    <li>You can get cool CRAFT swag, like T-shirt, bag, etc.</li>
+		    <li>The best performing CRAFT Ambassadors will be invited to the speakers dinner on the day before the conference, where you can meet, network and have your dinner with the more than 50 world class speakers, as well as the organisers.</li>
+		    <li>The best performing ambassadors photo and intro will be highlighted on CRAFT conference’s webpage for one year.</li>
+	    </ul>
+
+	    <h1 class="align-left">How can I become an ambassador? How it works?</h1>
+
+	    <ol>
+		    <li>First, fill out the CRAFT Ambassador application form: http://goo.gl/forms/z0Yc2vv92L</li>
+		    <li>We will send you some helpful communication materials, as well as create you a custom promocode that will give 10% (35$) discount to your friends.</li>
+		    <li>If 5+ of your friends have registered with this code, we’ll let you know and you automatically become a CRAFT Ambassador, and get your free conference ticket .</li>
+	        <li>If 10+ people registered with your code,  you will be invited to the speakers dinner, and your photo will be highlighted on the conference website with your intro.</li>
+	    </ol>
+
+	    <h1 class="align-left">Who should I invite?</h1>
+
+	    Your friends, coworkers, contacts, meetup members, anyone who you think would love the hear about CRAFT conference and the new trends in software technology.
+
+	    <h1 class="align-left">Who is an ideal Craft ambassador?</h1>
+	    Maybe you, let’s see! :)
+
+	    <br><br>
+       	<a href="/img/2015/Craft.Ambassador.Program.inforgraphics.jpg">
+       		<img src="/img/2015/Craft.Ambassador.Program.inforgraphics.small.jpg">
+       	</a>
+    </div>
+
+{/body}

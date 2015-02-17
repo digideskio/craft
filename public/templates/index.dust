@@ -1,0 +1,20 @@
+{>"layouts/master" /}
+
+{<body}
+    {>"partials/header" /}
+    {>"partials/nav" /}
+
+    {#sections}
+        {@if cond="!'{page_url}' && !'{full_url}'"}
+	    <section class="site-section">
+		    <span class="{id} section-link" id="{id}"></span>
+            {?year}
+                {>"sections/{year}/{id}" label="{label}"/}
+            {:else}
+                {>"sections/{id}" label="{label}"/}
+            {/year}
+            {~n}
+	    </section>
+		{/if}
+    {/sections}
+{/body}

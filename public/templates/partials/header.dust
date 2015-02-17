@@ -1,0 +1,11 @@
+<div id="header" class="inner">
+	<div class="gear dark" data-gear="1"></div>
+	<div class="info">
+		<img class="logo" src="/img/header_info_logo.svg" width="357" height="90">
+		<div class="title">Software Craftsmanship Matters</div>
+		<div class="date">{conf.date}, {conf.year}<span>//</span> {conf.city} </div>
+		<a href="https://twitter.com/{conf.twitter}" id="follow">
+			{conf.twitter}
+		</a>
+	</div>
+</div>
